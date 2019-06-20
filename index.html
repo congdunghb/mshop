@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Example </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="assets/vendor/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="assets/vendor/bootstrap.min.js"></script> -->
+
+  <!-- <link rel="stylesheet" href="assets/vendor/bootstrap.css"> -->
+  <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="top-bar">
+    <div class="container">
+      <div class="top-bar-inner">
+        <div class="img-logo">
+          <a href="#!">
+            <img src="./assets/images/logo-header.png" alt="anh-logo">
+          </a>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Trang chủ</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Tính năng</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Báo giá</a>
+            <div class="dropdown-menu">
+              <div class="left-items">
+                <img src="./assets/images/ic_logo_mshop_ocm.png" alt="anh-logo-1">
+                <img src="./assets/images/ic_logo_mshop.png" alt="anh-logo-2">
+                <img src="./assets/images/LogoOCM.svg" alt="anh-logo-3" class="style-img">
+              </div>
+              <div class="right-items">
+                <a href="#!" class="link-items">
+                  <h3>Báo giá phần mềm MShopKeeper + OCM</h3> <span>Beta</span>
+                  <p>Khách hàng muốn mua chung MShopKeeper và OCM</p>
+                </a>
+                <a href="#!" class="link-items">
+                  <h3>Báo giá phần mềm MShopKeeper + OCM</h3>
+                  <p>Khách hàng muốn mua chung MShopKeeper và OCM</p>
+                </a>
+                <a href="#!" class="link-items">
+                  <h3>Báo giá phần mềm MShopKeeper + OCM</h3> <span>Beta</span>
+                  <p>Khách hàng muốn mua chung MShopKeeper và OCM</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Tin tức</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Khách hàng</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Hỗ trợ</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">
+              <img src="./assets/images/logo_ocm.svg" alt="img-svg">
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <section class="banner">
+    <a href="#!" class="banner__link">
+      <img class="banner__img" src="./assets/images/banner_1366x768.png" alt="img-bg">
+    </a>
+  </section>
+  <!-- banner -->
+
+  <!-- BEM: Block Element Modified -->
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <h1 class="products__title">
+          Phù hợp với mọi loại cửa hàng
+        </h1>
+        <p class='products__para'>
+          Từ nhỏ đến lớn hoặc chuỗi cửa hàng
+        </p>
+      </div>
+      <div class="products__list">
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/Quan-Ao.jpg" alt="img-quanao">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Quần áo</h2>
+          </div>
+        </div>
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/Giay-Dep.jpg" alt="img-giaydep">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Giày dép</h2>
+          </div>
+        </div>
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/Mu-Non.jpg" alt="img-quanao">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Mũ nón</h2>
+          </div>
+        </div>
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/MatKinh.jpg" alt="img-quanao">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Mắt kính</h2>
+          </div>
+        </div>
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/Tui-xach.jpg" alt="img-quanao">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Túi sách</h2>
+          </div>
+        </div>
+        <div class="products__list-item">
+          <img class='products__list-img' src="./assets/images/Luu-Niem.jpg" alt="img-quanao">
+          <div class="products__list-title-wrapper">
+            <h3 class="products__list-subtitle">Cửa hàng</h3>
+            <h2 class="products__list-title">Phụ kiện thời trang</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <div class="container">
+      <h2 class="featured__title">
+        Giải pháp quản lý toàn diện
+      </h2>
+      <div class="featured__item">
+        <div class="featured__item-img-wrapper">
+          <img class='featured__item-img' src="./assets/images/QuanLyTuBatKyDau.jpg" alt="">
+        </div>
+        <div class="featured__item-content">
+          <h3 class="featured__item-title">
+            Điều hành, quản lý từ bất cứ đâu
+          </h3>
+          <p class='featured__item-para'>
+            Dù ở bất cứ nơi đâu bạn vẫn luôn nắm được tình hình
+            hoạt động của cửa hàng thông qua phần mềm quản lý
+            cửa hàng thời trang MShopKeeper qua mobile:
+            hôm nay doanh thu là bao nhiêu, lãi lỗ thế nào, mặt hàng nào bán
+            chạy nhất, tồn kho của từng mặt hàng là bao nhiêu,....
+          </p>
+        </div>
+      </div>
+      <div class="featured__item">
+        <div class="featured__item--styleimg featured__item-img-wrapper">
+          <img class='featured__item-img' src="./assets/images/SoatTonKhoHangHoa.jpg" alt="">
+        </div>
+        <div class="featured__item--stylecontent featured__item-content">
+          <h3 class="featured__item-title">
+            Chủ động kiểm soát tồn kho hàng hóa
+          </h3>
+          <p class='featured__item-para'>
+            Thông qua phần mềm quản lý cửa hàng thời trang MShopKeeper,
+            chủ cửa hàng/quản lý tức thời biết được tồn kho hàng hóa theo
+            từng màu sắc, kích cỡ,.... biết được mặt hàng nào đang bán chạy
+            và còn tồn ít để chủ động nhập hàng thêm hàng về hoặc mặt hàng nào tồn
+            nhiều hoặc lỗi mốt để có kế hoạch khuyến mại, giảm giá.
+          </p>
+        </div>
+      </div>
+      <div class="featured__item">
+        <div class="featured__item-img-wrapper">
+          <img class='featured__item-img' src="./assets/images/ChuoiCuaHang.jpg" alt="">
+        </div>
+        <div class="featured__item-content">
+          <h3 class="featured__item-title">
+            Quản lý toàn diện chuỗi cửa hàng
+          </h3>
+          <p class='featured__item-para'>
+            Phần mềm quản lý cửa hàng thời trang MShopKeeper giúp chủ cửa hàng
+            tức thời nắm được tình hình kinh doanh của từng cửa hàng trong chuỗi
+            ngay trên điện thoại, biết được tình hình tồn kho hàng hóa của từng cửa hàng,....
+            từ đó có thể điều phối hàng giữa các chi nhánh kịp thời, đảm bảo từng cửa hàng trong
+            chuỗi đều hoạt động tốt nhất
+          </p>
+        </div>
+      </div>
+      <div class="featured__item">
+        <div class="featured__item--styleimg featured__item-img-wrapper">
+          <img class='featured__item-img' src="./assets/images/TraCuuTonKho.jpg" alt="">
+        </div>
+        <div class="featured__item--stylecontent featured__item-content">
+          <h3 class="featured__item-title">
+            Tức thời tra cứu tồn kho để phục vụ khách
+          </h3>
+          <p class='featured__item-para'>
+            Đứng ngay tại quầy thông qua phần mềm quản lý bán hàng NVBH
+            có thể dùng điện thoại để tra cứu tồn kho hàng hóa theo màu sắc, kích cỡ,....
+            để tư vấn ngay cho khách, tiết kiệm thời gian và nâng cao chất lượng phục vụ.
+          </p>
+        </div>
+      </div>
+      <div class="clear featured__item featured__item--clear">
+        <div class="featured__item-img-wrapper">
+          <img class='featured__item-img' src="./assets/images/TinhTienMaVach.jpg" alt="">
+        </div>
+        <div class="featured__item-content">
+          <h3 class="featured__item-title">
+            Tính tiền nhanh chóng, chính xác bằng mã vạch
+          </h3>
+          <p class='featured__item-para'>
+            Phần mềm quản lý cửa hàng thời trang MShopKeeper
+            giúp thu ngân tính tiền chỉ trong vài giây bằng mã vạch,
+            tự động áp dụng các chương trình khuyến mại, hỗ trợ nhiều hình thức thanh toán:
+            tiền mặt, thẻ, ví điện tử,...tự động tổng hợp kết quả bán hàng theo ca làm việc,
+            giúp tiết kiệm thời gian và hạn chế sai sót khi tính tiền.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefit">
+    <div class="container">
+      <h3 class="benefit__title">
+        Toàn diện - Tiết kiệm - Thân thiện
+      </h3>
+      <div class="benefit__list">
+        <div class="benefit__item">
+          <div class="benefit__item-icon"></div>
+          <span class="benefit__item-title">
+            Đơn giản, dễ sử dụng
+          </span>
+          <div class="benefit__item-content">
+            Chỉ cần 5 phút đăng ký và cài đặt là dùng được ngay.
+            Dễ dàng nhập khẩu danh mục hàng hóa theo màu sắc, kích cỡ,... để bắt đầu bán hàng
+          </div>
+        </div>
+
+        <div class="benefit__item">
+          <div class="benefit__item--icon-child1 benefit__item-icon"></div>
+          <span class="benefit__item-title">
+            Chạy tốt trên mọi thiết bị
+          </span>
+          <div class="benefit__item-content">
+            Sử dụng ngay các thiết bị sẵn có tại cửa hàng:
+            máy tính, máy tính bảng, máy quét mã vạch, máy in,....
+          </div>
+        </div>
+
+        <div class="benefit__item">
+          <div class="benefit__item--icon-child2 benefit__item-icon"></div>
+          <span class="benefit__item-title">
+            Làm việc online và offline
+          </span>
+          <div class="benefit__item--style benefit__item-content">
+            Sử dụng tốt ngay cả khi không có kết nối internet
+          </div>
+        </div>
+        <div class="benefit__button">
+          <div class="benefit__button-item">
+            <a href="#" class="benefit__button-link">
+              Xem Demo
+            </a>
+          </div>
+          <div class="benefit__button-item">
+            <a href="#" class="benefit__button--white benefit__button-link">
+              Dùng thử miễn phí
+            </a>
+          </div>
+          <div class="benefit__button-item">
+            <a href="#" class="benefit__button--orance benefit__button-link">
+              Mua ngay
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="benefit__image-wrapper">
+        <img class="benefit__image" src="./assets/images/TuVanBanHang.png" alt="">
+      </div>
+      <!-- <div class="contents-utl">
+        <div class="content-utl-1">
+          <div class="logo-1 logo-title">
+            Chạy tốt trên mọi thiết bị
+          </div>
+          <div class="content-line">
+            Sử dụng ngay các thiết bị sẵn có tại cửa hàng:
+            máy tính, máy tính bảng, máy quét mã vạch, máy in,....
+          </div>
+        </div>
+      </div>
+
+      <div class="contents-utl">
+        <div class="content-utl-1">
+          <div class="logo-2 logo-title">
+            Làm việc online và offline
+          </div>
+          <div class="content-line">
+            Sử dụng tốt ngay cả khi không có kết nối internet
+          </div>
+        </div>
+      </div>
+      <div class="style-button">
+        <div class="btn-item">
+          <a href="#" class="link-btn">
+            Xem Demo
+          </a>
+        </div>
+        <div class="btn-item">
+          <a href="#" class="btn-sty-1 link-btn">
+            Dùng thử miễn phí
+          </a>
+        </div>
+        <div class="btn-item">
+          <a href="#" class="btn-sty-2 link-btn">
+            Mua ngay
+          </a>
+        </div>
+        <img src="./assets/images/TuVanBanHang.png" alt="">
+      </div> -->
+    </div>
+  </section>
+
+  <section class="reason">
+    <div class="container-fluid">
+      <div class="reason__image-wrapper">
+        <img class="reason__image" src="./assets/images/9lydo-text.png" alt="">
+      </div>
+      <ul class="reason__list">
+        <li class="reason__item">
+          <h4 class="reason__item-title">Đáp ứng đầy đủ nghiệp vụ</h4>
+          <p class="reason__item-description">Quản lý toàn diện việc bán hàng, quản lý tại cửa hàng và chuỗi</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Chất lượng cao theo tiêu chuẩn quốc tế</h4>
+          <p class="reason__item-description">Tiêu chuẩn ISO 9000- CMMi 3</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Thương hiệu uy tín</h4>
+          <p class="reason__item-description">Trên 22 năm kinh nghiệm - 100++ giải thưởng - 150.000++ khách hàng</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Tính năng ưu việt</h4>
+          <p class="reason__item-description">Hoạt động ổn định trên thiết bị sẵn có</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Triển khai dễ dàng, nhanh chóng</h4>
+          <p class="reason__item-description">Sử dụng ngay sau 5 phút đăng ký và cài đặt</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Tư vấn tận tình</h4>
+          <p class="reason__item-description">Hàng trăm tư vấn viên hỗ trợ 365 ngày/năm</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">An toàn bảo mật cao</h4>
+          <p class="reason__item-description">Tiêu chuẩn an ninh thông tin ISO 27000</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Giá cả phù hợp tiết kiệm chi phí</h4>
+          <p class="reason__item-description">Chỉ từ 99.000 đồng/tháng- Không giới hạn số lượng người sử dụng</p>
+        </li>
+        <li class="reason__item">
+          <h4 class="reason__item-title">Đầu tư hiệu quả</h4>
+          <p class="reason__item-description">Tiết kiệm thời gian, chi phí - tăng doanh số, lợi nhuận</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="container">
+      <div class="intro__image">
+        <img src="./assets/images/logo_ocm_white.png" alt="">
+      </div>
+      <ul class="intro__list">
+        <li class="intro__list-item">
+          Thao tác đơn giản, bạn có thể đăng hàng loạt hàng hóa lên các kênh bán hàng: Facebook, Zalo shop, Lazada...
+        </li>
+        <li class="intro__list-item">
+          Giúp tư vấn, chăm sóc khách hàng, chốt đơn hàng của các kênh bán hàng trên OCM một cách nhanh chóng và thuận
+          tiện.
+        </li>
+        <li class="intro__list-item">
+          Hệ thống hợp nhất tất cả kênh bán hàng từ bán tại cửa hàng đến Mạng Xã Hội và sàn TMĐT.
+        </li>
+        <a href="#" class="intro__list-link">
+          Xem chi tiết
+        </a>
+      </ul>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="container">
+      <div class="price__heading">
+        <h2 class="price__heading-title">
+          BÁO GIÁ PHẦN MỀM MSHOPKEEPER.VN
+        </h2>
+        <a href="#" class="price__heading-link">
+          <i class="fas fa-arrow-to-bottom"></i>
+          <span class="price_heading-para">
+            Tải báo giá chi tiết
+          </span>
+        </a>
+      </div>
+      <div class="price__item-wrapper">
+        <div class="price__item">
+          <div class="price__item-version">
+            <h5 class="price__item-title">STARTER</h5>
+            <p class="price__item-amount">99.000</p>
+            <p class="price__item-unit">VNĐ/tháng</p>
+          </div>
+          <div class="price__quantity">
+            01 thiết bị sử dụng tính tiền
+          </div>
+          <ul class="price__listdetail">
+            <li class="price__listdetail-item">Tính tiền, thu tiền, đổi - trả hàng</li>
+            <li class="price__listdetail-item">Quản lý: Hàng hóa, Kho.</li>
+            <li class="price__listdetail-item">Báo cáo: Báo cáo tổng quan về doanh thu, kho.</li>
+          </ul>
+
+          <div class="price__maindetail">
+            <div class="price__maindetail-info">
+              <span class="price__maindetail-title">Thêm 1 thiết bị để tính
+                tiền:</span>
+              <div class="price__maindetail-para">
+                <span class="price__maindetail-count">99.000 VNĐ</span><span>/Tháng/Thiết bị/Chi nhánh</span>
+              </div>
+            </div>
+
+            <div class="price__maindetail-info">
+              <span class="price__maindetail-title">Thêm 1 chi nhánh:
+                tiền:</span>
+              <div class="price__maindetail-para">
+                <span class="price__maindetail-count">99.000 VNĐ</span><span>/Tháng/Thiết bị/Chi nhánh</span>
+              </div>
+            </div>
+
+            <a href="#" class="price__link">
+              Mua ngay
+            </a>
+          </div>
+        </div>
+
+        <div class="price__item price__item--style">
+          <div class="price__item-version price__version--style">
+            <h5 class="price__item-title">
+              PROFESSIONAL
+            </h5>
+            <p class="price__item-amount">
+              199.000
+            </p>
+            <p class="price__item-unit">VNĐ/tháng</p>
+          </div>
+          <div class="price__quantity">
+            01 thiết bị sử dụng tính tiền
+          </div>
+          <ul class="price__listdetail">
+            <li class="price__listdetail-item price__listdetail--style">Tính tiền, thu tiền, đổi - trả hàng, tra cứu tồn
+              kho để tư vấn bán hàng.</li>
+            <li class="price__listdetail-item price__listdetail--style">Đầy đủ nghiệp vụ quản lý.</li>
+            <li class="price__listdetail-item price__listdetail--style">Đầy đủ biểu đồ, báo cáo tổng quan, chi tiết về
+              tình hình hoạt động kinh doanh của cửa hàng.</li>
+          </ul>
+
+          <div class="price__maindetail">
+            <div class="price__maindetail-info">
+              <span class="price__maindetail-title">Thêm 1 thiết bị để tính
+                tiền:</span>
+              <div class="price__maindetail-para">
+                <span class="price__maindetail-count">99.000 VNĐ</span><span>/Tháng/Thiết bị/Chi nhánh</span>
+              </div>
+            </div>
+
+            <div class="price__maindetail-info">
+              <span class="price__maindetail-title">Thêm 1 chi nhánh:
+                tiền:</span>
+              <div class="price__maindetail-para">
+                <span class="price__maindetail-count">99.000 VNĐ</span><span>/Tháng/Thiết bị/Chi nhánh</span>
+              </div>
+            </div>
+
+            <a href="#" class="price__link price__link--style">
+              Mua ngay
+            </a>
+          </div>
+        </div>
+
+        <div class="price__item">
+          <div class="price__item-version">
+            <h5 class="price__item-title">CHAIN STORE</h5>
+            <p class="price__item-amount">299.000</p>
+            <p class="price__item-unit">VNĐ/tháng</p>
+          </div>
+          <div class="price__quantity">
+            01 thiết bị sử dụng tính tiền
+          </div>
+          <p class="price__text">Áp dụng cho khách hàng có chuỗi, đang dùng gói Starter hoặc Professional có nhu cầu
+            thực hiện các nghiệp vụ quản lý.</p>
+          <ul class="price__listdetail">
+            <li class="price__listdetail-item">Các nghiệp vụ quản lý chuỗi: Quản lý kho, mua hàng toàn chuỗi, điều
+              chuyển hàng hóa giữa các chi nhánh trong chuỗi.</li>
+            <li class="price__listdetail-item">Báo cáo toàn chuỗi.</li>
+          </ul>
+
+
+          <a href="#" class="price__link">
+            Mua ngay
+          </a>
+        </div>
+
+      </div>
+      <div class="price__footer">
+        <p class="price__footer-title">PHÍ KHỞI TẠO</p>
+        <h2 class="price__footer-count">2.000.000 VNĐ /Tên miền</h2>
+        <p class="price__footer-para">Khởi tạo lần đầu tiên cho 01 tên miền (*.mshopkeeper.vn) khi sử dụng chính thức
+          phần mềm Quản lý cửa hàng thời trang MShopKeeper</p>
+      </div><div class="feedback__content-modul">
+            <div class="feedback__image">
+              <img src="./assets/images/letieunhi.png" alt="">
+            </div>
+            <div class="feedback__info">
+              <p class="feedback__name">Chị Lê Tiểu Nhi</p>
+              <p class="feedback__para">Trước đây, với rất nhiều mặt hàng, việc quản lý rất khó khăn, giờ thì Di Lê
+                Store đã có thể tư vấn ngay cho khách hàng thông qua ứng dụng bán hàng trên điện thoại. Công tác theo
+                dõi
+                các báo cáo: doanh thu, công nợ cũng đều rất tiện lợi, bất kể chủ shop có đang ở đâu đi nữa.</p>
+              <p class="feedback__slide-shop">Shop thời trang Di Lê Store</p>
+            </div>
+          </div>
+  </section>
+
+  <section class="feedback">
+    <div class="container">
+      <h2 class="feedback__title">Khách hàng nói về chúng tôi</h2>
+      <div class="feedback__slide">
+        <div class="feedback__slide-image">
+        </div>
+        <div class="feedback__content">
+          <!--  -->
+
+          <div class="feedback__content-modul feedback__content--style">
+            <div class="feedback__image">
+              <img src="./assets/images/ImageHandler.png" alt="">
+            </div>
+            <div class="feedback__info">
+              <p class="feedback__name">Anh Đinh Việt Thăng</p>
+              <p class="feedback__para">Trước đây, với rất nhiều mặt hàng, việc quản lý rất khó khăn, giờ thì Di Lê
+                Store đã có thể tư vấn ngay cho khách hàng thông qua ứng dụng bán hàng trên điện thoại. Công tác theo
+                dõi
+                các báo cáo: doanh thu, công nợ cũng đều rất tiện lợi, bất kể chủ shop có đang ở đâu đi nữa.</p>
+              <p class="feedback__slide-shop">Shop thời trang Di Lê Store</p>
+            </div>
+          </div>
+        </div>
+        <div class="feedback__slide-image">
+        </div>
+      </div>
+      <div class="feedback__footer">
+        <h2 class="feedback__footer-title">Báo chí nói về chúng tôi</h2>
+        <div class="feedback__footer-content">
+          <div class="feedback__footer-image">
+            <img src="./assets/images/vnexpress.png" alt="">
+          </div>
+          <div class="feedback__footer-image">
+            <img src="./assets/images/ictnews.png" alt="">
+          </div>
+          <div class="feedback__footer-image">
+            <img src="./assets/images/baomoi.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact__header">
+      <h2 class="contact__header-title">Liên hệ mua hàng</h2>
+      <p class="contact__header-para">Email: <span class="contact__header--style">mshop@misa.com.vn</span> - Website:
+        <span class="contact__header--style">www.mshopkeeper.vn</span></p>
+      <div class="contact__header-button">
+        <a href="#" class="contact__header-link">
+          Xem Demo
+        </a>
+        <a href="#" class="contact__header-link contact__header--white">
+          Dùng thử miễn phí
+        </a>
+        <a href="#" class="contact__header-link contact__header--orance">
+          Mua ngay
+        </a>
+      </div>
+    </div>
+    <div class="contact__footer">
+      <div class="container">
+        <div class="contact__footer-list">
+          <div class="contact__footer-item">
+            <h5 class="contact__footer-addres">MISA Hà Nội</h5>
+            <p class="contact__footer-telephone">Tel: 0243 762 7891</p>
+            <p class="contact__footer-email">Email: shsales@han.misa.com.vn</p>
+          </div>
+          <div class="contact__footer-item">
+            <h5 class="contact__footer-addres">MISA TP.HCMi</h5>
+            <p class="contact__footer-telephone">Tel: 02854 318 318</p>
+            <p class="contact__footer-email">Email: shsales@hcm.misa.com.vn</p>
+          </div>
+          <div class="contact__footer-item">
+            <h5 class="contact__footer-addres">MISA Đà Nẵng</h5>
+            <p class="contact__footer-telephone">Tel: 02363 667 555</p>
+            <p class="contact__footer-email">Email: shsales@dng.misa.com.vn</p>
+          </div>
+          <div class="contact__footer-item">
+            <h5 class="contact__footer-addres">MISA Buôn Ma Thuột</h5>
+            <p class="contact__footer-telephone">Tel: 0262 381 7400</p>
+            <p class="contact__footer-email">Email: shsales@bmt.misa.com.vn</p>
+          </div>
+          <div class="contact__footer-item">
+            <h5 class="contact__footer-addres">MISA Cần Thơ</h5>
+            <p class="contact__footer-telephone">Tel: 0292 376 6468</p>
+            <p class="contact__footer-email">Email: psales@cth.misa.com.vn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="introduce">
+    <div class="container">
+      <div class="introduce__content">
+        <div class="introduce__info">
+          <h5 class="introduce__info-title">CÔNG TY CỔ PHẦN MISA</h5>
+          <p class="introduce__info-para">Copyright © 2017 - 2019 MISA JSC | Thỏa thuận sử dụng dịch vụ | Chính sách bảo
+            mật
+            Tầng 9, tòa nhà Technosoft, phố Duy Tân, phường Dịch Vọng Hậu, Q. Cầu Giấy, TP. Hà Nội
+            Giấy CNĐKKD: 0101243150 - Ngày cấp: 22/04/2002, được sửa đổi lần thứ 14 ngày 23/07/2018
+            Cơ quan cấp: Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư TP. Hà Nội</p>
+        </div>
+        <div class="introduce__list">
+          <a href="#" class="introduce__link">
+            <img class="introduce__link-image" src="./assets//images/ic_facebook.png" alt="">
+          </a>
+          <a href="#" class="introduce__link">
+            <img class="introduce__link-image" src="./assets//images/ic_youtube.png" alt="">
+          </a>
+          <a href="#" class="introduce__link">
+            <img class="introduce__link-image" src="./assets//images/ic_share.png" alt="">
+          </a>  
+          <a href="#" class="introduce__link1">
+              <img class="introduce__link-image introduce__link--style" src="./assets//images/bocongthuong.png" alt="">
+          </a>     
+        </div> 
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
