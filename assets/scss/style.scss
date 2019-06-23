@@ -29,12 +29,9 @@ body {
   position: relative;
 }
 
-.top-bar {
-  padding: 15px 0;
-}
-
 .top-bar-inner {
   display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -46,7 +43,7 @@ body {
   justify-content: space-evenly;
 
   .nav-item {
-    padding: 5px 0;
+    padding: 15px 0;
 
     .nav-link {
       text-decoration: none;
@@ -66,9 +63,18 @@ body {
   }
 
   .nav-item.active {
-    border-bottom: 2px solid #3f98db;
     font-weight: bold;
-
+    position: relative;
+    &:before{
+      content: "";
+      background-color: #3f98db;
+      display: block;
+      width: 100%;
+      height: 3px;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+    }
     .nav-link {
       color: #3f98db;
     }
@@ -83,7 +89,7 @@ body {
 
     .dropdown-menu {
       position: absolute;
-      top: calc(100% + 15px);
+      top: calc(100%);
       left: 50%;
       z-index: 1;
       background-color: #3f98db;
@@ -214,8 +220,11 @@ body {
     }
   }
 }
-
-//end products
+.banner{
+  &__img{
+    display: block;
+  }
+}
 
 .featured {
   background-color: #efefef;
@@ -393,7 +402,7 @@ $text-color: $white-color;
 
   &__image-wrapper {
     background: url('#{$path-image}/9Lydo.jpg') no-repeat center;
-    min-height: 630px;
+    padding: 318px 0;
     width: 50%;
     background-size: cover;
     float: left;
@@ -407,7 +416,7 @@ $text-color: $white-color;
 
   &__list {
     background: linear-gradient(to right, #355ba1, #026b97);
-    padding: 50px 30px 0;
+    padding: 55px 30px 0;
     margin: 0;
     list-style: none;
     float: right;
@@ -416,7 +425,6 @@ $text-color: $white-color;
     color: $text-color;
     position: relative;
     counter-reset: reason;
-    min-height: 600px;
 
     &::before {
       content: '';

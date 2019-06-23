@@ -25,12 +25,9 @@ body {
   position: relative;
 }
 
-.top-bar {
-  padding: 15px 0;
-}
-
 .top-bar-inner {
   display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -42,7 +39,7 @@ body {
   justify-content: space-evenly;
 }
 .nav-list .nav-item {
-  padding: 5px 0;
+  padding: 15px 0;
 }
 .nav-list .nav-item .nav-link {
   text-decoration: none;
@@ -56,8 +53,18 @@ body {
   width: 100px;
 }
 .nav-list .nav-item.active {
-  border-bottom: 2px solid #3f98db;
   font-weight: bold;
+  position: relative;
+}
+.nav-list .nav-item.active:before {
+  content: "";
+  background-color: #3f98db;
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
 }
 .nav-list .nav-item.active .nav-link {
   color: #3f98db;
@@ -70,7 +77,7 @@ body {
 }
 .nav-list .nav-item:nth-child(3) .dropdown-menu {
   position: absolute;
-  top: calc(100% + 15px);
+  top: calc(100%);
   left: 50%;
   z-index: 1;
   background-color: #3f98db;
@@ -177,6 +184,10 @@ body {
 }
 .products__image-img:hover {
   transform: scale(1.2);
+}
+
+.banner__img {
+  display: block;
 }
 
 .featured {
@@ -311,7 +322,7 @@ body {
 }
 .reason__image-wrapper {
   background: url("../images/9Lydo.jpg") no-repeat center;
-  min-height: 630px;
+  padding: 318px 0;
   width: 50%;
   background-size: cover;
   float: left;
@@ -323,7 +334,7 @@ body {
 }
 .reason__list {
   background: linear-gradient(to right, #355ba1, #026b97);
-  padding: 50px 30px 0;
+  padding: 55px 30px 0;
   margin: 0;
   list-style: none;
   float: right;
@@ -332,7 +343,6 @@ body {
   color: #fff;
   position: relative;
   counter-reset: reason;
-  min-height: 600px;
 }
 .reason__list::before {
   content: "";
