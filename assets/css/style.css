@@ -188,6 +188,7 @@ body {
 
 .banner__img {
   display: block;
+  width: 100%;
 }
 
 .featured {
