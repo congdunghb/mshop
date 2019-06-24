@@ -181,6 +181,7 @@ body {
 }
 .products__image-img {
   transition-duration: 1s;
+  display: block;
 }
 .products__image-img:hover {
   transform: scale(1.2);

@@ -213,7 +213,7 @@ body {
 
     &-img {
       transition-duration: 1s;
-
+      display: block;
       &:hover {
         transform: scale(1.2);
       }
